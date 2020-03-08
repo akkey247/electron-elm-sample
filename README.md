@@ -10,13 +10,19 @@ Electronのパッケージングを行うサンプル。
 $ npm i
 ```
 
-2. 起動
+2. Elmのビルド
+
+```bash
+$ npx elm make src/Main.elm
+```
+
+3. 起動
 
 ```bash
 $ npx electron .
 ```
 
-3. パッケージ化(Mac)
+4. パッケージ化(Mac)
 
 ```bash
 $ node build-mac
